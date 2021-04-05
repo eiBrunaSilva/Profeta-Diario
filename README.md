@@ -25,7 +25,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 ## 💻 Projeto
 
@@ -33,7 +32,7 @@ O Profeta Diario é um projeto acadêmico desenvolvido em forma de um portal de 
 
 ## 🔖 Layout
 
-Nos links abaixo você encontra o layout do projeto web.
+No link abaixo você encontra o video de apresentação do layout projeto web.
 
 - [Layout Web](https://youtu.be/PUPj-1cDb04)
 
@@ -51,4 +50,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 ---
 
-Made with 💕 by Bruna Silva e Vinicius Moura 👩‍💻 👨‍💻
+Made with 💖 by Bruna Silva👩‍💻
