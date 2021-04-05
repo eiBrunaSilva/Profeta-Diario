@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <script type="text/javascript" src="game.js"></script>
+    <link rel="shortcut icon" href="./resources/11.png" type="image/x-icon" />
+    <link rel="stylesheet" href="game.css" />
+    <link rel="stylesheet" href="../components/header.css" />
+    <link rel="stylesheet" href="../styles/global.css" />
+  </head>
+
+  <body>
+    <nav class="main-menu">
+      <ul class="menu">
+        <li>
+          <a id="home" href="../index.html"
+            ><img src="../assets/icone.ico" alt=""
+          /></a>
+        </li>
+      </ul>
+    </nav>
+
+    <body onload="GameControl.createGame()">
+      <div id="main" class="main">
+        <div id="control">
+          <input
+            type="button"
+            class="button_game"
+            value="Reiniciar"
+            onclick="GameControl.createGame()"
+          />
+        </div>
+        <div id="score"></div>
+        <div id="game"></div>
+      </div>
+    </body>
+  </body>
+</html>

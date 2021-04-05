@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #000000;
+  --white: #fff;
+  --background: #f2f3f5;
+  --gray-line: #dcdde0;
+  --text: #666666;
+  --text-highlight: #b3b9ff;
+  --title: #2e384d;
+  --red: #e83f5b;
+  --green: #4cd62b;
+  --blue: #5965e0;
+  --blue-dark: #4953b8;
+  --sonserina: #008000;
+  --grifinoria: #740001;
+  --lufalufa: #ecb939;
+  --corvinal: #0000ff;
+  --blue-twitter: #2aa9e0;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  background-image: url(../assets/bgbody.jpg);
+  color: var(--text);
+}
+
+body,
+input,
+textarea,
+button {
+  font: 400 1rem "Inter", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+#top-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 2px;
+
+  background-color: rgba(0, 0, 0, 0.452);
+  margin-top: 90px;
+  color: lightgray;
+}
+
+@font-face {
+  font-family: Harry-potter;
+  src: url(./HARRP___.TTF);
+}
+h3 {
+  font-family: Harry-potter;
+  padding-top: 10px;
+}
+footer {
+  bottom: 0;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 41%;
+}

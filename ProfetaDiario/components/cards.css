@@ -1,0 +1,80 @@
+.container-card{
+  padding: 10px 0 26px 3px;
+  width: 49vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 306px;
+  background: var(--gray-line);
+  color: black;
+  border-radius: 5px;
+  align-items: center;
+  margin-top: 9px;
+}
+
+.card img {
+  width: 100%; 
+  height: 80%;
+  border-radius: 5px 5px 0 0;
+}
+.card > div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 12px;
+}
+
+
+.flip-card {
+  text-align: center;
+  background-color: transparent;
+  width: 250px;
+  height: 150px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  padding-top: 5px;
+  background-color: rgb(107, 174, 241);
+  width: 100%;
+  height: 275px;
+  color: white;
+  transform: rotateY(180deg);
+}

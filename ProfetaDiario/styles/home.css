@@ -1,0 +1,55 @@
+aside {
+  z-index: -1;
+  position: absolute;
+  float: right;
+  width: 25%;
+  padding: 16px 16px;
+  top: 53.5%;
+  right: 10%;
+  text-align: justify;
+  font-style: italic;
+  background-color: lightgray;
+}
+aside .card {
+  margin: 12px 28px;
+}
+
+.videos {
+  width: 67%;
+  margin: 2px 20px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.videos iframe {
+  margin-bottom: 8px;
+}
+
+@keyframes slidein {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+#top-text h3 {
+  color: white;
+  animation: 3s linear 1s infinite alternate slidein;
+}
+
+.container-card {
+  width: 67%;
+}
+
+
+#caixa{
+  z-index: 2;
+
+  background: url(../assets/images/vassoura.png) no-repeat;
+  transition: 0.5s;
+}
+#caixa:hover{
+  z-index: 2;
+  background: url(../assets/images/hvassoura.png) no-repeat;
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../assets/icone.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="../components/header.css" />
+    <link rel="stylesheet" href="../components/cards.css" />
+    <link rel="stylesheet" href="./quadribol.css" />
+    <title>Quadribol</title>
+  </head>
+
+  <body>
+    <header>
+      <img id="bg-header" src="../assets/bg-header.png " alt="" />
+    </header>
+
+    <nav class="main-menu">
+      <ul class="menu">
+        <li>
+          <a class="home" href="../index.html"
+            ><img src="../assets/icone.ico" alt=""
+          /></a>
+        </li>
+        <li>
+          <a href="#">Hogwarts</a>
+          <ul>
+            <li><a href="../Hogwarts/corvinal.html">Corvinal</a></li>
+            <li><a href="../Hogwarts/grifinoria.html">Grifinória</a></li>
+            <li><a href="../Hogwarts/lufaLufa.html">Lufa-lufa</a></li>
+            <li><a href="../Hogwarts/soncerina.html">Sonserina</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#">Ministério</a>
+          <ul>
+            <li><a href="#">Ministro</a></li>
+            <li><a href="#">História</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#">Esporte</a>
+          <ul>
+            <li><a href="./tribruxo.html">Torneio Tribruxo</a></li>
+            <li><a href="./quadribol.html">Quadribol</a></li>
+          </ul>
+        </li>
+        <li>
+          <a class="home" style="cursor: not-allowed" href="#">
+            <img src="../assets/12.png" alt="easter egg" />
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="top-text">
+      <h3>Q U A D R I B O L</h3>
+    </div>
+    <div class="container">
+      <div class="container-card">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="./copa.png" alt="Avatar" style="width: 100%" />
+            </div>
+            <div class="flip-card-back">
+              <p>Atualmente o melhor jogador do mundo.</p>
+              <img src="./vitor.jfif" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="conteudo">
+        <p>
+        <h1>O Quadribol é o jogo mais jogado entre os bruxos. Surgiu no brejo de
+          Queerditch no século XI
+        </h1>
+
+          <img
+            style="margin: 20px auto"
+            src="./quadri.jpg"
+            width="80%"
+            alt=""
+          />
+          Confira as regras do esporte
+        </p>
+        <a href="#abrirModal"><h3 style="color: var(--title);">R E G R A S</h3> </a>
+
+        <div id="abrirModal" class="modal">
+          <!-- conteúdo do modal aqui -->
+          <a href="#fechar" title="Fechar" class="fechar">x</a>
+          <object
+            width="100%"
+            height="100%"
+            data="./Quadribol.pdf"
+            type="application/pdf"
+          >
+            <embed src="./Quadribol.pdf" type="application/pdf" />
+          </object>
+        </div>
+      </div>
+<br>
+<hr style="margin-bottom: 30px;">
+      <div class="container-slide">
+        <h3>A T L E T A S</h3>
+
+        <input type="radio" class="slide-controller" name="slide" checked />
+        <input type="radio" class="slide-controller" name="slide" />
+        <input type="radio" class="slide-controller" name="slide" />
+        <input type="radio" class="slide-controller" name="slide" />
+        <div class="slide-show">
+          <ul class="slides-list">
+            <li class="slide">
+              <img
+                src="./Córmaco McLaggen.jpg"
+                width="400px"
+                height="219px"
+                alt="Córmaco McLaggen"
+                srcset=""
+              />
+              <h4>Córmaco McLaggen</h4>
+            </li>
+            <li class="slide">
+              <img
+                src="./gina.gif"
+                width="400px"
+                height="219px"
+                alt="Ginevra Weasley"
+                srcset=""
+              />
+              <h4>Ginevra Weasley</h4>
+            </li>
+            <li class="slide">
+              <img
+                src="./olivio.jpg"
+                width="400px"
+                height="219px"
+                alt="Olívio Wood"
+                srcset=""
+              />
+              <h4>Olívio Wood</h4>
+            </li>
+            <li class="slide">
+              <img
+                src="./vitor.gif"
+                width="400px"
+                height="219px"
+                alt="Vitor Krum"
+                srcset=""
+              />
+              <h4>Vitor Krum</h4>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <footer>Made with 💖 by Bruna Silva👩‍💻</footer>
+    </div>
+  </body>
+</html>
