@@ -50,4 +50,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 ---
 
-Made with 💖 by Bruna Silva👩‍💻
+<p align="center">Made with 💖 by Bruna Silva👩‍💻<p />
